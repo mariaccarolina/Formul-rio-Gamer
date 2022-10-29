@@ -60,11 +60,21 @@ height: 100vh;
     height: 40px;
     border: none;
     border-radius: 10px;
-
+    cursor: pointer;
+    font-weight: 500
 }
-.bt-entrar{
+.bt-enviar, .bt-cancelar{
     background-color: #FDC252;
-    height: 40px;
+    color: #2a1c02;
+    height: 30px;
     width: 90px;
+}
+.bt-crie-conta{
+    height: 30px;
+    width: 190px;
+    color: #2a1c02;
+    text-shadow: rgb(247, 200, 11) 1px 0 10px;
+    background-color: #cd87ee;
+    text-transform: uppercase;
 }
 
