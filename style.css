@@ -24,6 +24,9 @@ height: 100vh;
     min-height: 440px;
     flex-direction: column;
 }
+.form{
+    width: 100%;
+}
 .container-logo{
     display: flex;
     align-items: center;
@@ -34,7 +37,7 @@ height: 100vh;
 .image-top{
     width:130px;
     height: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,6 +45,26 @@ height: 100vh;
 .title-leitura{
     margin-top: 10px;
     color: #FDC252;
-    text-shadow: rgb(97, 78, 3) 1px 0 10px;;
+    text-shadow: rgb(97, 78, 3) 1px 0 10px;
+}
+.login-input{
+    width: 100%;
+    height: 40px;
+    border: solid 2px #FDC252;
+    border-radius: 10px;
+
+}
+.form-button{
+   width: auto;
+   margin: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+
+}
+.bt-entrar{
+    background-color: #FDC252;
+    height: 40px;
+    width: 90px;
 }
 
