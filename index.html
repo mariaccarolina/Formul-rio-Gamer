@@ -18,14 +18,14 @@
             <h2 class="title_form">Login</h2>
            </div>
 
-            <form class="form_" action="">
+            <form class="form_" action="dados.php" method="post">
                 <label for="">Usuário</label>
-                <input id="campo" class="login-input" type="text"> <br>
+                <input name="email" id="campo" class="login-input" type="text"> <br>
                 <label for="">Senha</label>
-                <input id="senha" class="login-input" type="password">
+                <input name="password" id="senha" class="login-input" type="password">
             </form>
 
-            <button class="form-button bt-enviar">ENVIAR</button>
+            <button type="submit" class="form-button bt-enviar" value="ENVIAR">ENVIAR</button>
             <button onclick="apagarDados()" class="form-button bt-cancelar">CANCELAR</button>
             <button class="form-button bt-crie-conta">Não tenho conta! Crie grátis</button>
         </div>
