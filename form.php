@@ -1,7 +1,7 @@
 <?php
 
-$login = $_POST['login'];
-$senha = $_POST['senha'];
+$login = $_GET['login'];
+$senha = $_GET['senha'];
 $acesso = "não tem acesso";
 
 if($login == "maria" && $senha == "1234")
@@ -9,4 +9,4 @@ if($login == "maria" && $senha == "1234")
 
 echo $acesso;
 
-?>
+?>;
